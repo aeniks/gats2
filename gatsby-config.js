@@ -20,6 +20,7 @@ module.exports = {
       twitter: `kylemathews`,
     },
   },
+  
   plugins: [
     `gatsby-plugin-image`,
     {
@@ -73,6 +74,7 @@ module.exports = {
             }
           }
         `,
+          `gatsby-plugin-netlify-cms`
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
